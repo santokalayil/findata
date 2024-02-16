@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "findata"
-version = "0.1.1"
-description = ""
+version = "0.1.2"
+description = "financial data build and analysis tools"
 authors = ["Santo K Thomas <santokalayil@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/santokalayil/findata"
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -19,3 +20,6 @@ fastapi = "^0.109.2"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.publish]
+repository = "https://upload.pypi.org/legacy/"
